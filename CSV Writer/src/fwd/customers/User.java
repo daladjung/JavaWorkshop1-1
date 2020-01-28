@@ -29,6 +29,10 @@ public class User {
 		return fields;
 	}
 	
+	public static int getSumSalary(User[] users) {
+		return 5000;
+	}
+	
 	public static void log(User user) {
 		System.out.println(user.toString());
 	}

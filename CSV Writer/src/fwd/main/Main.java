@@ -26,9 +26,10 @@ public class Main {
 		//SmartCsv.write(customers, path);
 		SmartCsv csv = new SmartCsv(path, "Windows");
 		csv.write(customers);
-		SmartCsv csv2 = new SmartCsv( "/Users/sompopkulapalanont/Projects/java-course/test2.csv");
-		csv2.write(customers);
+	//	SmartCsv csv2 = new SmartCsv( "/Users/sompopkulapalanont/Projects/java-course/test2.csv");
+	//	csv2.write(customers);
 		
+		csv.printSalary(customers);
 	//	User.log(customers);
 		/*for(int i =0 ;i < customers.length; i++) {
 			System.out.println(customers[i].name + customers[i].lastName + customers[i].age);
