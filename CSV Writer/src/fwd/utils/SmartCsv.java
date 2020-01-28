@@ -47,6 +47,8 @@ public class SmartCsv {
 		return answer + this.newLineChar;
 	}
 	
+	
+	
 	public void write(User[] users) throws IOException {
 		FileWriter writer = new FileWriter(this.path);
 		
@@ -55,6 +57,12 @@ public class SmartCsv {
 			writer.append(this.getCsvLine(  users[i].getStringValues()) );
 		writer.flush();
 		writer.close();
+	}
+	
+	
+	public void printSalary(User[] users)  {
+		
+		System.out.println("Salary =" + User.getSumSalary(users));
 	}
 	
 	/*private static String getCsvLine(String[] fields) {
