@@ -15,6 +15,8 @@ public class Main {
 		
 		System.out.println("Hello");
 		
+		//ello
+		
 		//User[] customers = new User[10];
 		//customers[0] = naiKor;
 		User[] customers =  {
