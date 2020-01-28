@@ -34,7 +34,7 @@ public class SmartCsv {
 	
 	
 	public void test() {
-		System.out.println("test");
+		System.out.println("test1");
 	}
 	
 	String getCsvLine(String[] fields) {
