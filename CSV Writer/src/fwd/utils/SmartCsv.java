@@ -32,6 +32,11 @@ public class SmartCsv {
 		this.spliter = spliter;
 	}
 	
+	
+	public void test() {
+		System.out.println("test");
+	}
+	
 	String getCsvLine(String[] fields) {
 		String answer = "";
 		for(int i = 0; i < fields.length ; i ++) {
