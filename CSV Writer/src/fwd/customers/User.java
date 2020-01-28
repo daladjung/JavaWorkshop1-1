@@ -13,33 +13,45 @@ public class User {
 		this.age = age;
 		this.salary = salary;
 		
-		
 	}
+	
+	
 	public String toString() {
 		return this.name + " " + this.lastName + " " + this.age + " " + this.salary;
 	}
+	
 	
 	public String[] getStringValues() {
 		String[] values = {this.name, this.lastName, this.age  + "", this.salary + ""};
 		return values;
 	}
 	
+	
 	public static String[] getFields() {
 		String[] fields = {"Name", "Last Name", "Age", "Salary"};
 		return fields;
 	}
 	
+
 	public static int getSumSalary(User[] users) {
-		return 5000;
+		int sum = 0;
+		for(int i = 0; i < users.length; i++)
+			sum += users[i].salary;
+			return sum;		
 	}
 	
+
 	public static void log(User user) {
 		System.out.println(user.toString());
 	}
+	
 	
 	public static void log(User[] users) {
 		//add to updafte
 		for(int i = 0 ; i < users.length ; i ++)
 			User.log(users[i]);
 	}
+	
+	
+
 }
