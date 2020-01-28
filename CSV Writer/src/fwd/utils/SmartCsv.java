@@ -13,7 +13,7 @@ public class SmartCsv {
 	public String spliter = ",";
 	public String newLineChar = "\n";
 	public String os = "OSX";
-	
+	//test smart csv
 	public SmartCsv(String path) {
 		this.path = path;
 	}

@@ -13,7 +13,7 @@ public class Main {
 		String path = "/Users/sompopkulapalanont/Projects/java-course/test.csv";
 		
 		
-		
+		System.out.println("Hello");
 		
 		//User[] customers = new User[10];
 		//customers[0] = naiKor;
